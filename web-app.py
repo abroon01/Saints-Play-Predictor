@@ -27,7 +27,7 @@ def inputs() :
     
 
     quarter = st.selectbox(label = "Quarter", options = [1,2,3,4])
-    minute = st.number_input(label = "Minutes Remaining", min_value=0, max_value=15, value = 15)
+    minute = st.number_input(label = "Minutes Remaining", min_value=0, max_value=15, value = 14)
     second = st.number_input(label = "Seconds Remaining", min_value=0, max_value=59, value = 59)
 
     data = {'Quarter': quarter,
